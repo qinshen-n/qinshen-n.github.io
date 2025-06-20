@@ -1,0 +1,60 @@
+/* CSS Reset  (Base Styles)
+These are the styles we are applying to make sure that
+browsers don't do silly or unexpected things, and our defaults are
+just a BIT less ugly! */
+
+ html {
+     box-sizing: border-box;
+     font-size: var(--space-medium);
+     font-family: var(--font-default);
+     color: var(--black);
+     scroll-behavior: smooth;
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: var(--font-feature);
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ol,
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+     font: inherit;
+ }
+
+ /* ---End CSS Reset --- */
