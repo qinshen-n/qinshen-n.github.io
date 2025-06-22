@@ -1,36 +1,33 @@
-#  your_name_here - Portfolio Task
+#  Qin Shen's Portfolio - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](https://qinshen-n.github.io/)
 ​
 ## Project Requirements
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- My portfolio showcases a clean, minimalist design with a focus on usability and performance. It includes a circular profile picture for a personal touch, a detailed bio section with readable typography, and an interactive contact form for easy communication. Projects are displayed in a responsive card grid with hover effects, while external links to GitHub and LinkedIn maintain branding consistency. Built with vanilla HTML/CSS for lightweight efficiency, the site prioritizes accessibility, mobile responsiveness, and fast loading times—achieving a professional aesthetic without unnecessary complexity.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+- My portfolio website was developed with a mobile-first approach, prioritizing clean aesthetics and technical robustness. The site consists of two interlinked pages (home and projects) built with semantic HTML5 for improved accessibility and SEO. All development was version controlled through Git, enabling structured collaboration and change tracking. For seamless deployment, I leveraged GitHub Pages which provides reliable hosting with automatic updates from the main branch. Responsive design was achieved through CSS Flexbox/Grid and strategic media queries, ensuring optimal viewing across all device sizes. This combination of thoughtful structure and modern web practices results in a fast, accessible, and maintainable digital portfolio.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
-- [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+- My portfolio implements foundational interactive elements, including:
+- Hover states with CSS transitions (opacity/color shifts) to improve visual feedback
+- A hamburger menu prototype for mobile navigation (HTML/CSS structure in place)
+ But the JavaScript functionality isn’t yet fully operational, there are much area to be kepting learning.
 ​
 ### Screenshots
-> Please include the following:
-> - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
-> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> 
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
+- Screenshots are available in the [screenshots_website] folder.
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+
+####  mobile_homepage 
+![This mobile view showcases a clean, single-column layout with collapsed hamburger menu, centered profile image, and responsive typography for optimal small-screen readability](qinshen-n.github.io/img/screenshots_website/Mobile-Screenshot-Qin-Shen-Portofolio.png)
+####  tablet_homepage 
+![The tablet view demonstrates an adaptive two-column grid with expanded navigation and balanced white space, highlighting improved content hierarchy at medium breakpoints.](qinshen-n.github.io/img/screenshots_website/Tablet-Screenshot-Qin-Shen-Portofolio.png)
+####  desktop_homepage_with_nav_hover 
+![The desktop layout transforms both the navigation and content organization - the collapsed mobile menu expands into a full horizontal navigation bar, while the skills section shifts from vertical stacking to a single-line horizontal display.](qinshen-n.github.io/img/screenshots_website/Desktop-Screenshot-Qin-Shen-Portofolio.png)
+####  mobile_projects_page_with_button_hover 
+![It Shows how buttons light up slightly when touched on mobile, with a soft color change and smooth animation.](qinshen-n.github.io/img/screenshots_website/mobile_screenshot_button_hover.png)
