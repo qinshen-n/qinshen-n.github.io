@@ -1,20 +1,37 @@
-/* CSS Reset  (Base Styles)
+ /* Base HTML Styles */
+ @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+
+ :root {
+   --text-color: #c5c7b9;
+   --link-color: #eb9406;
+   --background-color: #f1eee7;
+   --action: #ffcdb2;
+   --black: #111111;
+   --font-default: "Inter", sans-serif;
+   --font-feature: "Rubik", sans-serif;
+   --padding-small: 8px;
+   --padding-medium: 16px;
+   --padding-large: 32px;
+   --padding-xl: 64px;
+ }
+
+ /* CSS Reset  (Base Styles)
 These are the styles we are applying to make sure that
 browsers don't do silly or unexpected things, and our defaults are
 just a BIT less ugly! */
 
  html {
-     box-sizing: border-box;
-     font-size: var(--space-medium);
-     font-family: var(--font-default);
-     color: var(--black);
-     scroll-behavior: smooth;
+   box-sizing: border-box;
+   font-size: var(--space-medium);
+   font-family: var(--font-default);
+   color: var(--black);
+   scroll-behavior: smooth;
  }
 
  *,
  *:before,
  *:after {
-     box-sizing: inherit;
+   box-sizing: inherit;
  }
 
  h1,
@@ -23,7 +40,7 @@ just a BIT less ugly! */
  h4,
  h5,
  h6 {
-     font-family: var(--font-feature);
+   font-family: var(--font-feature);
  }
 
  body,
@@ -36,25 +53,360 @@ just a BIT less ugly! */
  p,
  ol,
  ul {
-     margin: 0;
-     padding: 0;
+   margin: 0;
+   padding: 0;
  }
 
  ol,
  ul {
-     list-style: none;
+   list-style: none;
  }
 
  img {
-     max-width: 100%;
-     height: auto;
+   max-width: 100%;
+   height: auto;
  }
 
  input,
  button,
  textarea,
  select {
-     font: inherit;
+   font: inherit;
  }
 
+ a {
+  color: var(--black);
+  text-decoration: none;
+ }
  /* ---End CSS Reset --- */
+
+ /* Utilities */
+ .flex {
+   display: flex;
+ }
+
+ .padding-small {
+   padding: var(--space-small);
+ }
+
+ .padding-medium {
+   padding: var(--space-medium);
+ }
+
+ .padding-large {
+   padding: var(--space-large);
+ }
+
+ .padding-xl {
+   padding: var(--space-xl);
+ }
+
+
+ /* mobile header */
+ header.mobile-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+   background-color: var(--background-color);
+ }
+ 
+ .mobile-header span {
+  font-weight: bold;
+  font-size: 30px;
+ }
+
+ .mobile-header nav {
+  display: none;
+ }
+
+ .mobile-header nav a:hover {
+  color: var(--action);
+  border: 2px solid var(--action);
+ }
+
+ /* section 1: hero */
+ .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-large);
+  margin: var(--padding-large);
+  margin-bottom: 60px;
+  gap: 40px;
+}
+
+.hero-section .text {
+  width: 100%; 
+  order: 2; 
+}
+
+.hero-section .text h2 {
+  font-size: 35px; 
+  margin-bottom: 25px;
+}
+
+.hero-section .headshot {
+  order: 1;
+}
+
+.hero-section .headshot img {
+  border-radius: 70%;
+  width: 200px; 
+  max-width: 100%;
+}
+
+  /* section 2: skill */
+  .skills-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+  }
+
+  .skills-section h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .skills-section .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .skills-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid var(--background-color);
+    border-radius: 5px;
+  }
+
+  .skills-section .cells .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+
+  }
+
+   /* section 3: contact form*/
+ .contact-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .contact-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+ }
+
+ .contact-section form {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   width: 50%;
+   margin-bottom: 50px;
+ }
+
+ .contact-section form textarea {
+  resize: none;
+ }
+
+ .contact-section form input {
+  cursor: pointer;
+ }
+
+/* Section 4: Projects */
+.projects-section {
+  padding: var(--padding-xl);
+}
+ 
+.projects-section h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: var(--padding-medium);
+}
+
+.project-content h3 {
+  margin-bottom: 30px;
+  color: grey;
+}
+
+.project-description {
+  margin-bottom: var(--padding-medium);
+  line-height: 1.6;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: var(--link-color);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+}
+ /* footer */
+ footer {
+   padding: 16px;
+   text-align: center;
+ }
+ 
+ footer a {
+  margin: 0 8px;
+ }
+
+ footer span {
+  display: none;
+ }
+
+
+@media (min-width: 1024px) {
+  /* desktop navbar */ 
+  .mobile-header {
+    justify-content: flex-start;
+    gap: 40px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .mobile-header nav {
+    display: block;
+  }
+
+  .mobile-header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* section 2: Skill */
+    .skills-section .cells .cell {
+      width: auto; 
+      flex: 1; 
+      max-width: 20%; 
+      min-width: 100px; 
+    }
+  /* section 3: Contact */
+  .contact-section form {
+    width: 80%;
+    gap: 15px;
+  }
+
+  .contact-section form input,
+  .contact-section form textarea {
+    padding: 12px;  
+    font-size: 16px; 
+  }
+
+  .contact-section form textarea {
+    min-height: 150px; 
+  }
+
+  .contact-section form input[type="submit"] {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+   /* section 1: hero */
+   .hero-section {
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-section .text {
+    max-width: 60%; 
+    order: 1; 
+  }
+
+  .hero-section .text h2 {
+    font-size: 45px; 
+  }
+
+  .hero-section .headshot {
+    order: 2;
+    justify-content: flex-end;
+  }
+
+  .hero-section .headshot img {
+    width: 240px;
+  }
+
+  /* footer */
+ footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 8px;
+ }
+
+ footer span {
+  display: inline;
+ }
+}
