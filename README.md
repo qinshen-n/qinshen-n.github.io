@@ -21,7 +21,7 @@
 
 
 ####  mobile_homepage 
-![This mobile view showcases a clean, single-column layout with collapsed hamburger menu, centered profile image, and responsive typography for optimal small-screen readability.](img/screenshots_website/Desktop-Screenshot-Qin-Shen-Portofolio.png)
+![This mobile view showcases a clean, single-column layout with collapsed hamburger menu, centered profile image, and responsive typography for optimal small-screen readability.](img/screenshots_website/Mobile-Screenshot-Qin-Shen-Portofolio.png)
 ####  tablet_homepage 
 ![The tablet view demonstrates an adaptive two-column grid with expanded navigation and balanced white space, highlighting improved content hierarchy at medium breakpoints.](img/screenshots_website/Tablet-Screenshot-Qin-Shen-Portofolio.png)
 ####  desktop_homepage_with_nav_hover 
