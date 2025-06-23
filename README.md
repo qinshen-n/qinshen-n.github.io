@@ -21,10 +21,10 @@
 
 
 ####  mobile_homepage 
-![Qin Shen Portfolio Desktop Screenshot](img/screenshots_website/Desktop-Screenshot-Qin-Shen-Portofolio.png)
+![This mobile view showcases a clean, single-column layout with collapsed hamburger menu, centered profile image, and responsive typography for optimal small-screen readability.](img/screenshots_website/Desktop-Screenshot-Qin-Shen-Portofolio.png)
 ####  tablet_homepage 
-![The tablet view demonstrates an adaptive two-column grid with expanded navigation and balanced white space, highlighting improved content hierarchy at medium breakpoints.](qinshen-n.github.io/img/screenshots_website/Tablet-Screenshot-Qin-Shen-Portofolio.png)
+![The tablet view demonstrates an adaptive two-column grid with expanded navigation and balanced white space, highlighting improved content hierarchy at medium breakpoints.](img/screenshots_website/Tablet-Screenshot-Qin-Shen-Portofolio.png)
 ####  desktop_homepage_with_nav_hover 
-![The desktop layout transforms both the navigation and content organization - the collapsed mobile menu expands into a full horizontal navigation bar, while the skills section shifts from vertical stacking to a single-line horizontal display.](qinshen-n.github.io/img/screenshots_website/Desktop-Screenshot-Qin-Shen-Portofolio.png)
+![The desktop layout transforms both the navigation and content organization - the collapsed mobile menu expands into a full horizontal navigation bar, while the skills section shifts from vertical stacking to a single-line horizontal display.](img/screenshots_website/Desktop-Screenshot-Qin-Shen-Portofolio.png)
 ####  mobile_projects_page_with_button_hover 
-![It Shows how buttons light up slightly when touched on mobile, with a soft color change and smooth animation.](qinshen-n.github.io/img/screenshots_website/mobile_screenshot_button_hover.png)
+![It Shows how buttons light up slightly when touched on mobile, with a soft color change and smooth animation.](img/screenshots_website/mobile_screenshot_button_hover.png)
