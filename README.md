@@ -35,21 +35,20 @@ Add a short paragraph describing the features below, if you included any.
 ​
 ### Screenshots
 ### Wireframes
-![Wireframe](./wireframes/wireframe_desktop.JPG)
-![Wireframe](./wireframes/wireframe_mobile.jpg)
-
+![Wireframe](img/wireframes/wireframe_desktop.JPG)
+![Wireframe](img/wireframes/wireframe_mobile.jpg)
 #### Mobile Homepage Screenshots
-![Mobile One](./screenshots/Mobile_One.png)
+![Mobile One](img/screenshots/Mobile_One.png)
 
 #### Mobile Project Page Screenshots
-![Mobile Two](./screenshots/Mobile_Two.png)
+![Mobile Two](img/screenshots/Mobile_Two.png)
 
 #### Tablet Homepage & Projects Screenshots
-![Tablet One](./screenshots/Tablet-Screenshot-Qin-Shen-Portofolio.png)
+![Tablet One](img/screenshots/Tablet-Screenshot-Qin-Shen-Portofolio.png)
 
 #### Desktop Homepage Screenshots
-![Desktop One](./screenshots/Desktop_One.png)
+![Desktop One](img/screenshots/Desktop_One.png)
 
 #### Desktop Projects Screenshots
-![Desktop Two](./screenshots/Desktop_Two.png.png)
-![Desktop Three](./screenshots/Desktop_Three.png)
+![Desktop Two](img/screenshots/Desktop_Two.png.png)
+![Desktop Three](img/screenshots/Desktop_Three.png)
