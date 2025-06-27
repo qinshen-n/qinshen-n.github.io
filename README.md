@@ -35,20 +35,24 @@ Add a short paragraph describing the features below, if you included any.
 ​
 ### Screenshots
 ### Wireframes
-![Wireframe](img/wireframes/wireframe_desktop.JPG)
-![Wireframe](img/wireframes/wireframe_mobile.jpg)
+![Wireframe Desktop](img/wireframes/wireframe_desktop.JPG)
+![Wireframe Mobile](img/wireframes/wireframe_mobile.jpg)
+
 #### Mobile Homepage Screenshots
 ![Mobile One](img/screenshots/Mobile_One.png)
 
 #### Mobile Project Page Screenshots
 ![Mobile Two](img/screenshots/Mobile_Two.png)
 
-#### Tablet Homepage & Projects Screenshots
+#### Tablet Homepage Screenshots
 ![Tablet One](img/screenshots/Tablet_One.png)
+
+#### Tablet Projects Screenshots
+![Tablet Two](img/screenshots/Tablet_Two.png)
 
 #### Desktop Homepage Screenshots
 ![Desktop One](img/screenshots/Desktop_One.png)
 
 #### Desktop Projects Screenshots
-![Desktop Two](img/screenshots/Desktop_Two.png.png)
+![Desktop Two](img/screenshots/Desktop_Two.png)
 ![Desktop Three](img/screenshots/Desktop_Three.png)
