@@ -44,7 +44,7 @@ Add a short paragraph describing the features below, if you included any.
 ![Mobile Two](img/screenshots/Mobile_Two.png)
 
 #### Tablet Homepage & Projects Screenshots
-![Tablet One](img/screenshots/Tablet-Screenshot-Qin-Shen-Portofolio.png)
+![Tablet One](img/screenshots/Tablet_One.png)
 
 #### Desktop Homepage Screenshots
 ![Desktop One](img/screenshots/Desktop_One.png)
